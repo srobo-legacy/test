@@ -5,7 +5,7 @@ namespace StudentRobotics
 {
 	public class Test
 	{
-		public static Main()
+		public static void Main()
 		{
 			Console.WriteLine("Sam is a face");
 		}
