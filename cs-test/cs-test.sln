@@ -1,0 +1,20 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 10.00
+# Visual Studio 2008
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "cs-test", "cs-test.csproj", "{1AB3369B-4B63-4F87-974E-50451BB32071}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|x86 = Debug|x86
+		Release|x86 = Release|x86
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{1AB3369B-4B63-4F87-974E-50451BB32071}.Debug|x86.ActiveCfg = Debug|x86
+		{1AB3369B-4B63-4F87-974E-50451BB32071}.Debug|x86.Build.0 = Debug|x86
+		{1AB3369B-4B63-4F87-974E-50451BB32071}.Release|x86.ActiveCfg = Release|x86
+		{1AB3369B-4B63-4F87-974E-50451BB32071}.Release|x86.Build.0 = Release|x86
+	EndGlobalSection
+	GlobalSection(MonoDevelopProperties) = preSolution
+		StartupItem = test.sln.csproj
+	EndGlobalSection
+EndGlobal
