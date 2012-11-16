@@ -15,5 +15,5 @@ submit_rule(S) :-
   X =.. [submit | Ls],
   gerrit:remove_label(Ls,label('Verified',_),NoCR),
   gerrit:remove_label(Ls,label('Code-Review',_),NoCR),
-  add_category_min_score(NoCR,'Code-Review', 2, Labels),
+  add_category_min_score(NoCR,'Code-Review', 3, Labels),
   S =.. [submit | Labels].
