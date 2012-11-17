@@ -2,3 +2,4 @@
 #
 679c12dd27a4284d6d5b8f292669a0e6745de26c	mentors
 fb5dafc8c021470b1afb90de58ae0a5a3e984745	Administrators
+ldap:cn=mentors,ou=groups,o=sr          	mentors
