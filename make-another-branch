@@ -1,0 +1,13 @@
+#!/bin/bash
+
+if [ -z $1 ]
+then
+	echo "Usage: $0 NAME"
+	echo "  Creates a branch called $NAME with three commits in it"
+fi
+
+git checkout -b $1 origin/master
+touch first second
+git add first; git ci -m first
+git add second; git ci -m second
+echo foo > second ; echo bar > first ; git ci -am third
