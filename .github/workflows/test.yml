@@ -1,0 +1,17 @@
+name: Testing
+
+on:
+  push:
+    branches:
+      - "*"
+  pull_request:
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout sources
+        uses: actions/checkout@v3
+
+      - run: |
+          echo ::notice file=.github/workflows/test.yml,line=17,endLine=17,col=25,title=BEEEES::Message is potato
