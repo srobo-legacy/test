@@ -15,3 +15,5 @@ jobs:
 
       - run: |
           echo ::notice file=.github/workflows/test.yml,line=17,endLine=17,col=25,title=BEEEES::Message is potato
+
+          echo ::warning file=.github/workflows/test.yml,line=19,endLine=19,col=25,title=BOOOS::Message is jam
